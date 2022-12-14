@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bél Mariage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">    
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width:930px)">
+</head>
+<body>
+    <header>
+        <img src="./assets/icons/Logo.png" alt="">
+        <video  controls preload="auto">
+            <source src="./assets/videos/belMariage.mp4"/>
+        </video>
+        <div class="header--title-container">
+            <h1> Sueña, Construye y Celebra!</h1>
+            <p> Bél Mariage te ayuda a convertir tus sueños en realidad.</p>
+            <a href="#plans" class="header--button">Explora <span></span></a>
+        </div>
+    </header>
+    <main>
+        <section class="main-products">
+            <div class="backgroundImg"></div>
+            <div class="main-products--title">
+                <h2>Nuestros productos</h2>
+                <p>Vive nuestra experiencia como lo han vivido algunas de nuestras clientes</p>
+            </div>
+            <section class="main-table-container">
+                <div class="productos">
+                    <div class="main-products-table">
+                        <table>
+                            <tr>
+                                <td class="table__top-left">Accesorios <span class="accesorios"></span></td>
+                                <td class="table__top-right table right">Vestidos de novia <span class="vestidos"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom-left">Argollas de matrimonio <span class="argollas"></span></td>
+                                <td class="table__bottom-rigth table right">Usa tus prendas despues del evento <span class="reusa"></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="main-product-detail">
+            <span class="product-detail--bel-icon"></span>
+            <div class="product-detail--title">
+                <h2> Te acompañamos para crear productos que no tienen comparación</h2>
+                <p> Vive una experiencia inolvidable con Bél Mariage </p>
+            </div>
+            <section class="product-cards--container">
+                <article class="product-detail--card">
+                    <span class="materiales"></span>
+                    <p class="product--card-title">Materiales</p>
+                    <p class="product--card-body">Los mejores materiales seleccionados para que podamos construir tus productos.</p>
+                </article>
+
+                <article class="product-detail--card2">
+                    <span class="diseno"></span>
+                    <p class="product--card-title2">Diseño</p>
+                    <p class="product--card-body2">Con tus ideas y mi experiencia lograremos hacer tus sueños realidad.</p>
+                </article>
+
+                <article class="product-detail--card3">
+                    <span class="construccion"></span>
+                    <p class="product--card-title3">Creación</p>
+                    <p class="product--card-body3">Elaboramos nuestros productos con el mayor cuidado y 100% a mano</p>
+                </article>
+
+                <article class="product-detail--card4">
+                    <span class="finalfeliz"></span>
+                    <p class="product--card-title3">¡Final Feliz!</p>
+                    <p class="product--card-body3">Nuestra razon de ser es que nuestras clientes vivan una experiencia inolvidable con nuestros productos.</p>
+                </article>
+
+            </section>
+        </section>
+        <section class="cita-img-container">
+            <h2>¡Reserva tu cita hoy!</h2>
+        </section>
+        <section class="formulario-container">
+            <form action="/" class="form">
+                <label for="nombre">
+                    <span class="label">¿Cual es tu nombre?</span>
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" class="input" required>
+                </label>
+
+                <label for="correo">
+                    <span class="label">¿Cual es tu email?</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" class="input" required>
+                </label>
+
+                <label for="calendario">
+                    <span class="label">Selecciona la fecha y hora que mas te convenga</span>
+                    <input type="datetime-local" id="calendario" name="calendario" class="input">
+                </label>
+                
+                <input type="submit" value="Confirmar cita" class="primary-button">
+
+            </form>
+        </section>
+        <section id="plans" class="main-plans-container">
+            <div class="plans--title">
+                <h2>Escoger el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquier plan, te da acceso completo a nuestro productos</p>
+            </div>
+            <section class="plans-container--slider">
+                
+                <article class="plans-container--card">
+                    <div class="plan-info-container">
+                    <h3 class="plan-card--title">Pago mensual</h3>
+                    <p class="plan-card--price"><span>$</span>170</p>
+                    <p class="plan-card--saving">* Si quieres conocer nuestros servicios puedes comenzar con el plan mensual.</p>
+                    <button class="plan-card--ca"> Escoger este <span></span></button>
+                </div>
+                </article>
+                
+                <article class="plans-container--card">
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span>1200</p>
+                        <p class="plan-card--saving">* Ahorra $ 840 comparado al plan mensual.</p>
+                        <button class="plan-card--ca"> Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-container--card">
+                        <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago por 5 años</h3>
+                        <p class="plan-card--price"><span>$</span>4200</p>
+                        <p class="plan-card--saving">* Ahorra $ 1.800 comparado al plan mensual.</p>
+                        <button class="plan-card--ca"> Escoger este <span></span></button>
+                    </div>
+                </article>
+
+
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./assets/icons/Logo.png" alt="Logo Bel Mariage">
+        </section>
+    </footer>
+</body>
+</html>
